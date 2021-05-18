@@ -12,6 +12,7 @@ class CUSTOM_TYPES:
 
 
 class ParseWord:
+
     """analyzing the word.doc/docx syntax"""
     def __init__(self, path: str):
         assert len(path) > 0, "File path not specified"
